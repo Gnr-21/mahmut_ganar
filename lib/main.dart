@@ -64,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     onPressed: () {},
 
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 70, 8, 81),
+                      backgroundColor: const Color.fromARGB(255, 17, 90, 2),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(0),
                       ),
@@ -78,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           color: Colors.black,
                         ),
                         Text(
-                          "BİYOGRAFİ",
+                          "ROMAN",
                           style: TextStyle(fontSize: 25, color: Colors.black),
                         ),
                         SizedBox(height: 20, width: 180),
@@ -91,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     onPressed: () {},
 
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 230, 204, 112),
+                      backgroundColor: const Color.fromARGB(255, 229, 47, 47),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(0),
                       ),
@@ -105,18 +105,19 @@ class _MyHomePageState extends State<MyHomePage> {
                           color: Colors.black,
                         ),
                         Text(
-                          "ROMAN",
+                          "KURGU DIŞI",
                           style: TextStyle(fontSize: 25, color: Colors.black),
                         ),
                         SizedBox(height: 20, width: 180),
                       ],
                     ),
                   ),
-                  SizedBox(height: 10),
+
                   Spacer(),
                 ],
               ),
               SizedBox(height: 10),
+
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -125,67 +126,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     onPressed: () {},
 
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 56, 22, 208),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(0),
-                      ),
-                    ),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.child_friendly,
-                          size: 60,
-                          color: Colors.black,
-                        ),
-                        Text(
-                          "ÇOCUK",
-                          style: TextStyle(fontSize: 25, color: Colors.black),
-                        ),
-                        SizedBox(height: 20, width: 180),
-                      ],
-                    ),
-                  ),
-
-                  Spacer(),
-                  ElevatedButton(
-                    onPressed: () {},
-
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 232, 12, 12),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(0),
-                      ),
-                    ),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.visibility_off,
-                          size: 60,
-                          color: Colors.black,
-                        ),
-                        Text(
-                          "POLİSİYE",
-                          style: TextStyle(fontSize: 25, color: Colors.black),
-                        ),
-                        SizedBox(height: 20, width: 180),
-                      ],
-                    ),
-                  ),
-
-                  Spacer(),
-                ],
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Spacer(),
-                  ElevatedButton(
-                    onPressed: () {},
-
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 203, 110, 175),
+                      backgroundColor: const Color.fromARGB(255, 99, 46, 244),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(0),
                       ),
@@ -194,63 +135,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(Icons.book, size: 60, color: Colors.black),
-                        Text(
-                          "KILASİK",
-                          style: TextStyle(fontSize: 25, color: Colors.black),
-                        ),
-                        SizedBox(height: 20, width: 180),
-                      ],
-                    ),
-                  ),
-
-                  Spacer(),
-                  ElevatedButton(
-                    onPressed: () {},
-
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 16, 198, 10),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(0),
-                      ),
-                    ),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(
-                          Icons.bookmarks_rounded,
-                          size: 60,
-                          color: Colors.black,
-                        ),
-                        Text(
-                          "ŞİİİR",
-                          style: TextStyle(fontSize: 25, color: Colors.black),
-                        ),
-                        SizedBox(height: 20, width: 180),
-                      ],
-                    ),
-                  ),
-                  SizedBox(height: 10),
-                  Spacer(),
-                ],
-              ),
-              SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Spacer(),
-                  ElevatedButton(
-                    onPressed: () {},
-
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 160, 100, 94),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(0),
-                      ),
-                    ),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(Icons.trending_up, size: 60, color: Colors.black),
                         Text(
                           "KİŞİSEL GELİŞİM",
                           style: TextStyle(fontSize: 25, color: Colors.black),
@@ -265,7 +149,98 @@ class _MyHomePageState extends State<MyHomePage> {
                     onPressed: () {},
 
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 232, 12, 12),
+                      backgroundColor: const Color.fromARGB(255, 235, 122, 210),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(0),
+                      ),
+                    ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.bookmarks_rounded,
+                          size: 60,
+                          color: Colors.black,
+                        ),
+                        Text(
+                          "KILASİKLER",
+                          style: TextStyle(fontSize: 25, color: Colors.black),
+                        ),
+                        SizedBox(height: 20, width: 180),
+                      ],
+                    ),
+                  ),
+
+                  Spacer(),
+                ],
+              ),
+              SizedBox(height: 10),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Spacer(),
+                  ElevatedButton(
+                    onPressed: () {},
+
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: const Color.fromARGB(255, 115, 133, 24),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(0),
+                      ),
+                    ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(Icons.trending_up, size: 60, color: Colors.black),
+                        Text(
+                          "ÇOCK",
+                          style: TextStyle(fontSize: 25, color: Colors.black),
+                        ),
+                        SizedBox(height: 20, width: 180),
+                      ],
+                    ),
+                  ),
+
+                  Spacer(),
+                  ElevatedButton(
+                    onPressed: () {},
+
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: const Color.fromARGB(255, 12, 106, 45),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(0),
+                      ),
+                    ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.face_unlock_outlined,
+                          size: 60,
+                          color: Colors.black,
+                        ),
+                        Text(
+                          "GENÇLİK",
+                          style: TextStyle(fontSize: 25, color: Colors.black),
+                        ),
+                        SizedBox(height: 20, width: 180),
+                      ],
+                    ),
+                  ),
+
+                  Spacer(),
+                ],
+              ),
+              SizedBox(height: 10),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Spacer(),
+                  ElevatedButton(
+                    onPressed: () {},
+
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: const Color.fromARGB(255, 195, 11, 11),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(0),
                       ),
@@ -288,41 +263,11 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
 
                   Spacer(),
-                ],
-              ),
-              SizedBox(height: 10),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Spacer(),
                   ElevatedButton(
                     onPressed: () {},
 
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 120, 63, 106),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(0),
-                      ),
-                    ),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(Icons.history, size: 60, color: Colors.black),
-                        Text(
-                          "TARİH",
-                          style: TextStyle(fontSize: 25, color: Colors.black),
-                        ),
-                        SizedBox(height: 20, width: 180),
-                      ],
-                    ),
-                  ),
-
-                  Spacer(),
-                  ElevatedButton(
-                    onPressed: () {},
-
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 32, 186, 81),
+                      backgroundColor: const Color.fromARGB(255, 67, 46, 170),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(0),
                       ),
